@@ -123,6 +123,16 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - 剩余缺口：Gz 定义、LChain、Link 网络、常数 7、ExplicitFormulaError 本体
 - 解读系列新增：docs/walkthrough/08-显式公式函数Gm与窗口判据.md；数学背景笔记 08
 
+## Gz 主项与引擎语义完全体（第九轮侦察补充）
+
+- **Gz 闭式**（GzEq.lean）：Gz y = An.G y = Deduction.G y = Σ_{n≤⌊y⌋} vonMangoldt(n)·(y/n − 1)——主特征正项主项（log(y/n) 的线性下近似）；三表示统一（Formalism/An/Deduction.ramp）
+- **FamilyClassConnected**（DivinNOfHypV.lean:13）：每 eps 层级存在窗口族 Fm，族内所有大窗口点 ChainTied 覆盖——族连通 = 绑定覆盖
+- **HypV**（同文件）= 族内每宿主 VVle Sha 窗口成立——plugWin 之 V 的族化
+- **vvRecord**：VVle ⇒ ShaFinOdd（genus 奇指标）+ vvTerm 级数收敛 ≤ B（vvTerm = log l·Σ shaLen）
+- Gm = 主项(Gz) + 波(加权 gChi 实部和)——ζ/L 分离的引擎同构
+- 剩余缺口（技术性）：LChain/LHost 物理路径、常数 7、Link 网络细节、ExplicitFormulaError 本体
+- 解读系列新增：docs/walkthrough/09-Gz主项与族连通.md；数学背景笔记 09
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
