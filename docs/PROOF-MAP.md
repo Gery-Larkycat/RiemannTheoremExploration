@@ -171,6 +171,14 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - **SmallClassNumbers 认知修正**：classNumber (Kstar 3) = 1 是引擎 Level-3 星型域的分类数平凡（非虚二次域类数问题）；eq_one（模 2 特征恒主）；MainTheoremsCritical = 最小层级/最小模退化特判层
 - 解读系列新增：docs/walkthrough/14-Landau二分法本体.md；数学背景笔记 14（含术语核对方法论提醒）
 
+## Kato 机器与 Taylor-Wiles 拼贴（第十五轮侦察补充）
+
+- **词汇分布统计**：Kato 1071 文件 / patching 702 文件 / TaylorWilesObstructionBound 实名文件 / LiteratureResults/KatoEulerSystems 目录——**模性提升（R=T）全套现代机器入列**
+- CorGKOf 装配链全读：litN 文献假设（OpenImage/galois_cohomology_from_literature）→ lemmaK → 非分歧自守性 → Kato 二重 W（katoTwoW_of_printsH）→ 刚性 I/II → 单特征酉 → U3.CorGK → 层级 3 界；patching 入口 = published_hypotheses_from_patching_alt
+- **修正后的引擎成分表**：文献库 + Theta/Siegel-Weil + Poitou-Tate + Arakelov 高度 + **TW patching 模性提升** + **Kato Euler 系统** + 形式桥网络——完整现代朗兰兹武器库
+- 两条腿会师：Poitou-Tate 记账规则 × Kato Euler 系统上界数值 = Sha/Selmer 窗口的文献级来源
+- 解读系列新增：docs/walkthrough/15-Kato与TaylorWiles.md；数学背景笔记 15
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
