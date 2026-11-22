@@ -113,6 +113,16 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - 剩余缺口：Gm 精确定义、LChain 代数定义、supplyOfAdm 构造、ExplicitFormulaError 本体、常数 7 出处
 - 解读系列新增：docs/walkthrough/07-平方根截断与Landau判据.md；数学背景笔记 07
 
+## Gm 与窗口化零点判据（第八轮侦察补充）
+
+- **Gm 定义**（ExplicitFormulaErrorOfHostConditions.lean:38）：Gm y = Gz y + Σ_{ψ∈Λ.Nt} wt ψ · Re(gChi ψχ y)——显式公式的引擎版（主项 + 加权特征正项和）
+- **零点判据桥**（:41 与 Window.lean:31）：Gm ≤ y^θ 的集合被 [Y,Y^la] 覆盖 ⇒ ZeroFreeAbove θ；反证形式（:26）若 Re>θ 有零点则窗口内 y^θ < Gm y
+- **供给端装配线**（ShortNorms/supplyOfAdmOf.lean）：PairGood + VWinAt ψ 401 + admissible ⇒ 实例化 Host（HostGood）+ EAtH + VVle ⇒ HostExW(3/2)；装配细节 fieldChi → winPairs → C0/K/A 常数链（A = K^(5/eps)）
+- 新词汇：Shares（分摊 x^(-1+eps)）、admitted、FieldRows、EventuallyRankLeRpow（1/52 出处）
+- 逻辑链终局闭合（PROOF-MAP 第 4 节）：PairGood+VWinAt → 宿主实例化 → HostExW → TopG → Chebyshev 窗口 → 判据桥 θ→1/2 → RH
+- 剩余缺口：Gz 定义、LChain、Link 网络、常数 7、ExplicitFormulaError 本体
+- 解读系列新增：docs/walkthrough/08-显式公式函数Gm与窗口判据.md；数学背景笔记 08
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
