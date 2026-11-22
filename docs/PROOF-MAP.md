@@ -247,6 +247,11 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - **主干侦察完成**：24 轮覆盖全部主区块，剩余边角（LinkGLOBAL7 层级表/GL3Θ↔GL4 梯子/GL3Θ 前 900 行 p-adic 细节）为技术性深化
 - 解读系列新增：docs/walkthrough/24-GreenbergWiles本体与供给收口.md；数学背景笔记 24
 
+## 提炼报告（第二十一轮）
+
+- **docs/NEW-MATH.md 落盘**：新数学结构与工具提炼报告——方法级 4 项（窗口体系/宿主舞台/形式桥网络/桥接焊点）、对象级 4 项（抽象层级语言/LiteralAutomorphy/Host 家族/G 系列谱系）、定理级 2 项、工具级 3 项、常数体系 1 项；每项含实锤/推断置信度标注与经典对应物
+- 侦察转向提炼与综合（边角深化按需）
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
