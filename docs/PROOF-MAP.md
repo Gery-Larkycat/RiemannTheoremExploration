@@ -225,6 +225,13 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - **GL3Theta 1013 行** = p-adic 多元幂级数层 GL3 Theta（Wp/InWf/IntegralW/logMv/SimeqW/tauK——tauK 即 Gauss 和的 p-adic 化身）；Theta 机器复解析与 p-adic 双轨确认
 - 解读系列新增：docs/walkthrough/21-G0统一引理与padic世界.md；数学背景笔记 21
 
+## Frobenius 读数与 Kudla 家族（第二十二轮侦察补充）
+
+- **ZetaZeroFreeRegion 真身**（275 行）：Chr D 抽象特征（GG→Cˣ）、Unram（p∤宿主判别式）、InertK 惯性分类、**Reads（chi(p)=psi(Frob_p) 的 Artin 式对接）**、prim 选择公理选本原读出者、Gc/Lp 把 Landau 量提升到抽象层——抽象-具体对接完成
+- **GL3Theta 尾部**：TwistedThetaTheorem → toTaylorLogMetric（对数量规）→ .rec 产出九条矩条件（vec22/th22/RelativeDeterminantEquation/int22/mom22/str22/famItems）；**IsDiscriminantTwelfthRootOfIdealLattice**（判别式十二次根格）；**KudlaFamilyStatement**（Theta 导数模性族化）——HeightAndVanishing 的引擎室
+- 全链叙事闭环：Kstar 类群/判别式 → Theta 导数模性 → 宿主读数窗口 → VWin → PT 记账 → Chebyshev 截断 → Landau 判据 → EveryCharacter → RH
+- 解读系列新增：docs/walkthrough/22-Frobenius读数与Kudla家族.md；数学背景笔记 22
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
