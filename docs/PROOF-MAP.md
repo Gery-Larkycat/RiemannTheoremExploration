@@ -210,6 +210,14 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - namespace QH（MeanSquareBounds 容器）语义待定
 - 解读系列新增：docs/walkthrough/19-机器汇合点与小零点宝石.md；数学背景笔记 19
 
+## thinH 整合定理与 ζ 通道证明体（第二十轮侦察补充）
+
+- **thinH 全文**：SmallZeros(8B 层) 与 BoxW 的 1−1/400 宿主带取 min——**1/400 接口定谳**；level_dvd（N ∣ 宿主 condN，conductor_dvd_level）；分支 q|N ∨ d|N → BoxW 界，否则 Gauss 和等式 + SmallZeros——**ThinOK 条件本体 = 双保险零点控制**
+- QH namespace = CharacterBoxes/ThinChoice.lean（薄选择体系）
+- **Gz 应用群**：RiemannHypothesisOfPowerBound / GrowthBoundGivesRiemannHypothesis（条件主定理第三变体）/ FixedEpsilonConcreteGrowthBound；**ζ 通道证明体在 GlobalRankLatticeProofs/（ZetaZeroFreeRegion + LandauZeroFreeHalfPlane——全局秩格几何化）**
+- L 函数因式分解架构：非本原 L = 本原 L × 欧拉因子；imprimitive 补齐引理自动传导（CritLine/KatoLitO 只需本原）
+- 解读系列新增：docs/walkthrough/20-thinH整合定理.md；数学背景笔记 20
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
