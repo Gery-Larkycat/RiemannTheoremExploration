@@ -94,6 +94,15 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - 新线索：zeroFreeOn_of_tiedWin_cyc（薄化放大定理本体）、ChainTied、Scales la 尺度几何、GlobalInterpolation Link* 链接网络
 - 解读系列新增：docs/walkthrough/05-Host舞台.md；数学背景笔记 05
 
+## 放大机制贯通（第六轮侦察补充）
+
+- Scales la：J + Win 窗口集 + windows（对每个 y 存在 Y 使 [Y, Y^la] 全在 Win 内）——**la = 覆盖指数，3/2 的结构角色**（VWinAt 的 [Y,Y^2] 是 la=2 特例）
+- TopWin.lean 组件族：WinAll / ChebyshevInequalityOnWindows(Λ=Level.cyc psi) / TiedAll / ExWin / ChainWin → zeroFreeOn_of_tiedWin_cyc(la>1) ⇒ ZeroFreeOn
+- ZeroFreeOn := 每个特征 psi.ZeroFreeAbove(1/2)；定义于 ExplicitFormulaErrorOfHostConditions.lean:11-14
+- ChainTied（TieGlobal.lean:97）：读数 av/bv + Data/Word/Top 组合编码 + TiePts/TieGlobal/TieLocal/TieArith 四绑定 + **Ident（primVal 与 ell psi = logDerivativeAtOne chi 即对数导数）** + LChain.SizeData2/ErrWindows/BNBounds
+- **引擎总图闭合：经典 de la Vallée Poussin 骨架（切比雪夫窗口上界 => 对数导数控制 => 右半带无零）× 新燃料（宿主舞台供给上界：Poitou-Tate Sha 窗口 + 标签字典 + 链接网络）**
+- 解读系列新增：docs/walkthrough/06-放大机制.md；数学背景笔记 06
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
