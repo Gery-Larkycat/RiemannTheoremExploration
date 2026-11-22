@@ -142,6 +142,14 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - 常数 7 澄清：exists_small_eps (eD+eL+7) —— 误差预算打包常数（非深奥常数）；另 (7:ZMod 16)^k 群论性质对应 d≡7 mod 16
 - 解读系列新增：docs/walkthrough/10-条件主定理双璧.md；数学背景笔记 10
 
+## RhOfRight 与 Schur 界目录（第十一轮侦察补充）
+
+- **RhOfRight 全文**（Mathlib 级简洁）：hz（右半带无零）+ riemannZeta_one_sub 函数方程反射；cos 零点 ⟺ 负偶数（平凡零点排除）细节精确；与 critLine 同构的 Mathlib 原生版实例
+- hz 供给 = EveryCharacter 模 1 主特征退化（LFunction_modOne_eq）——GRH 通道结论获源码印证（ζ 通道封口定理存在但数据源仍是 GRH 通道）
+- **GlobalSchurBounds 定性初探**：GL3Columns/GL3Theta/AdmittedWeylDimension（GL(3) 侧机器）+ Joints 接合点群 + **LinkGLOBAL7Tied4 / ConclusionR7abs**（层级常数 7、4 进入文件名——7 的第二处身份嫌疑：链接层级）+ FlipTwoThree（2-3 翻转，呼应 q≡3/d≡7 mod 8/16）+ 编号化引理链
+- SharpRestriction 子目录群 = "平方根截断构造图纸区"
+- 解读系列新增：docs/walkthrough/11-RhOfRight反射封口.md；数学背景笔记 11
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
