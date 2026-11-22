@@ -35,3 +35,11 @@
 ## D5 — git 用户配置占位
 - **背景**：本机无全局 git user.name/email，commit 需要身份。
 - **决策**：仓库级配置 user.name=larkycat、user.email=larkycat@localhost（本地占位，仓库无远端推送需求）。
+
+## D9 — 两项执行待办（改名与推送认证）
+
+- **本地目录改名待办**：父目录 /home/larkycat/source/playground 为只读挂载（DSH 提权后仍报 Read-only file system），目录级 mv 无法自动执行。项目名已在 README/remote/文档层生效，本地目录名暂维持 RiemannTheorem。**待办**：用户在自己的终端执行
+  mv /home/larkycat/source/playground/RiemannTheorem /home/larkycat/source/playground/RiemannTheoremExploration
+  之后会话工作目录随新路径迁移（关联 D6）。
+- **远端自动推送待办**：本机无 GitHub 凭据（无 SSH key、gh 未登录、无 credential store），HTTPS push 报 could not read Username。自动推送暂不可执行（关联 D8）。**待办**：用户提供任一认证（gh auth login / SSH key / PAT 配 credential store）后恢复每 commit 即 push；此前本地提交排队，用户亦可随时自行 push。
+
