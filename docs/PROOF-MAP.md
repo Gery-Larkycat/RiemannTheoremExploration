@@ -63,6 +63,17 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - 新概念嫌疑升级：LiteralAutomorphy（字面自守性/rowRatW 行有理性）、BoundAtTwoAndThreeForFamily（2、3 处的界）、CovTop.CovolX、IndefiniteRowSideFullHecke.WeilTensorModels
 - 解读系列：docs/walkthrough/01-主线收束链.md、02-引擎深潜.md
 
+## 窗口不等式解剖（第三轮侦察补充）
+
+- VWin 四层结构：VWin(401) → VWinAt(eps<1/52, PageN, WinPair, [Y,Y²]) → VAt(IsChiField ⇒ VVle) → VVle(Sha 长度指数和 ≤ e^(x^eps/2))
+- WinPair：q≡3 mod 8、d≡7 mod 16、q|d+1、d+1 小素因子只有 2 和 q——手工调音的素数对
+- IsChiField：ψ + 2^(e+2) + q + d 的 Jacobi 特征联合切出的分圆子域（Galois 固定域判据）
+- VVle：Galois 上同调数据 LData 的 shaLen 行表加权指数和 ≤ B——**Brauer 类群塔方法的升级版**
+- Green 定理 = 有限域 GL_d(F_p) 的标签-表示字典（LabelDatum/LabelConv/HasCuspLabel，namespace PositivityTheory.GreenCharacters）；非分析 Green 函数
+- LData 定义于 Formalism/GaloisCohomology/Statement.lean:54；shaLen : ℕ → ℕ → ℚ
+- Formalism.HC 驻扎 PrimeDiscriminants（RamDiscr/CycImage/HostRaw）——Host（宿主）概念家族待解剖
+- 解读系列新增：docs/walkthrough/03-窗口不等式与Green字典.md；数学背景笔记 03
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
