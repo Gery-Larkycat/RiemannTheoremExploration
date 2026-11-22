@@ -158,6 +158,13 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - 架构六层图（层 0 收束 / 层 1 桥 / 层 2 引擎组装 / 层 3 解析机器 / 层 4 几何机器 / 层 5 文献）见解读 12
 - 解读系列新增：docs/walkthrough/12-装配主车间与Landau工具箱.md；数学背景笔记 12
 
+## 双装配通道与类数三临界件（第十三轮侦察补充）
+
+- **装配车间尾部**（RiemannHypothesisOfEveryCharacter 211-231）：zeta_ne_zero_of_everyCharacter（一行主特征退化）+ riemannHypothesis_of_everyCharacter（完成函数对称版反射；Gamma 零点分类收尾）——与 CritLine 版同构不同封装
+- **双通道确认**：通道 A = CritLine.rh_of_every（MainTheorems 主线）；通道 B = MainConclusion → RiemannHypothesisOfEveryCharacter（Main 闭包内）；RH 结论被 EveryCharacterOfLiteratureOfVWin / TemperedProductOfSquareIntegrable 等子系统复用为构件
+- **MainTheoremsCritical = 类数三临界件**：SmallClassNumbers 三件（ClassNumberThree/LenEqZeroIff/OnePoint）——小类数边界情形修补层首例
+- 解读系列新增：docs/walkthrough/13-双装配通道与类数三临界.md；数学背景笔记 13
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
