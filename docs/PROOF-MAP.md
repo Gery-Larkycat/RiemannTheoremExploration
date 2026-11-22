@@ -186,6 +186,14 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - PT 机器三份正式化：Statement.lean（引擎侧）/ CohP（TW 侧）/ PoitouTateNormalised（文献侧）
 - 解读系列新增：docs/walkthrough/16-TW障碍界与Kato定理直译.md；数学背景笔记 16
 
+## Kstar 虚二次域舞台与 Jacobi 显式计算（第十七轮侦察补充）
+
+- **Kstar p = Q(√−p)**（SplittingFieldIsoQuadratic.lean:51）：p≡3 mod 4，判别式 −p、全复、2 维、CM 域——**WinPair 素数 q 的用途实锤：造虚二次域舞台**
+- Level-3 临界语义对齐：classNumber (Kstar 3) = 1 即 Q(√−3) 类数 1（Heegner 域）——解读 13 猜测半对
+- **supplyOfAdmOf 中部**：Win 集合 = {x | ∃ Y q d e, WinDatum}（窗口数据显式记录）；常数链落地（hYA 幂次往返、hq3 排除 q=3、h4N）；**hjacb = 纯二次互反律计算**（p|d+1 ⇒ jacobiSym(−d,p)=1，d+1 小素因子全分裂——genus 理论实锤）
+- GreenbergWiles 多源：GalCoh.lean:175 定义 + GreenbergWilesOfPoitouTate（EulerChar+Finite ⇒ GW）+ 文献版
+- 解读系列新增：docs/walkthrough/17-Kstar虚二次域舞台.md；数学背景笔记 17
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
