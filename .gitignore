@@ -1,0 +1,8 @@
+# 下载产物：外部大资产，不入库（档案 239MB、源码 17.37M 行）
+download/
+lean/
+lean.tar.gz
+
+# 工具临时文件
+*.tmp
+.DS_Store
