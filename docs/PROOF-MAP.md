@@ -84,6 +84,16 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - 缺口：解析侧如何估计 Selmer/Sha 长度（shapeWin/supplyChi 定位于 CharacterBoxes/，下轮解剖）
 - 解读系列新增：docs/walkthrough/04-PoitouTate引擎.md；数学背景笔记 04
 
+## Host 舞台与组装总装（第五轮侦察补充）
+
+- 类型系统：HostReq/FReq 均为 Type 1 要求函数（命题级依赖注入）
+- HostGood 十四条：范数方程 π·conj(π)=g_i（(π−1)∈⟨QS·q·d⟩）、pde/pde' ≡ 1 mod lcm(15, QS·q·d)、q0 ≡ 1、levelPrimes 五素数、BoxW 窄窗、|dlogH| ≤ x^eps、ThinOK/BadOK
+- GChi ψ := EAtH(Level.cyc ψ) ∧ VVle H.E——特征要求 = 循环实现 + 宿主 Sha 窗口
+- **BoxW.real_ne_zero：宿主上的 L 在 β > 1−1/400 无零点（400 常数；401 = VWin 截断，常数网成形：401/400/52/3/2/15）**
+- 组装总装：shapeWin(Green→TopShape/TopG) + supplyChi(VWin→HostExW 3/2) → zeroFreeAll_of_topG(la>1) → ZeroFreeAll
+- 新线索：zeroFreeOn_of_tiedWin_cyc（薄化放大定理本体）、ChainTied、Scales la 尺度几何、GlobalInterpolation Link* 链接网络
+- 解读系列新增：docs/walkthrough/05-Host舞台.md；数学背景笔记 05
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
