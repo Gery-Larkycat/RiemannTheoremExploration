@@ -232,6 +232,13 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - 全链叙事闭环：Kstar 类群/判别式 → Theta 导数模性 → 宿主读数窗口 → VWin → PT 记账 → Chebyshev 截断 → Landau 判据 → EveryCharacter → RH
 - 解读系列新增：docs/walkthrough/22-Frobenius读数与Kudla家族.md；数学背景笔记 22
 
+## TwistedTheta 陈述解剖与 Weyl 维数（第二十三轮侦察补充）
+
+- **TwistedThetaTheorem 陈述解剖**（928-953 行）：aux₃ = LatticeGrowthBound ∧ SplitModelProperties ∧ DeterminantCharacterProperties ∧ readW；Adm3s = admJ ∧ **InducedCMType** ∧ HostFieldConditions；Stmt := Adm3s → aux₃；ConclusionE = X 恒真版；.mono/.rec 组合器——**模性主定理的参数化形式**（C 可调结论强度、X 附加要求）
+- **AdmittedWeylDimension**（151 行）：GAf 仿射群 + LevelData + ColRep 列表示的 **Weyl 维数容许界**（LevelDataRankBound/BaseWeightColumnCondition）——链绑定组合账本的保险丝
+- InducedCMType：Kstar CM 型作为宿主体系对称性种子
+- 解读系列新增：docs/walkthrough/23-TwistedTheta陈述与Weyl维数.md；数学背景笔记 23
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
