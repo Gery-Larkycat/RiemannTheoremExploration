@@ -218,6 +218,13 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - L 函数因式分解架构：非本原 L = 本原 L × 欧拉因子；imprimitive 补齐引理自动传导（CritLine/KatoLitO 只需本原）
 - 解读系列新增：docs/walkthrough/20-thinH整合定理.md；数学背景笔记 20
 
+## G0 统一引理与 p-adic 世界（第二十一轮侦察补充）
+
+- **gauss_sum_function_eq 真身**：An.gChi = G0 统一引理（QH 侧统一 G 函数；max 在支撑上退化）；isReal_of_sq 实特征引理——修正解读 18 初猜（非 tau 恒等式，Gauss 和机器在 thinH 下游）
+- **ζ 通道三层结构**：GlobalSchurBounds/ZetaZeroFreeRegion（真身）→ GlobalRankLatticeProofs 薄适配（G_eq_Gz 命名空间桥 + PointsLemma）→ 条件主定理层；**命名空间桥接引理（X.Y = Z）是 AI 跨目录装配的逻辑焊点**（多例：An.gChi=Gchi、An.logDerivativeAtOne=G.T、G_eq_Gz）
+- **GL3Theta 1013 行** = p-adic 多元幂级数层 GL3 Theta（Wp/InWf/IntegralW/logMv/SimeqW/tauK——tauK 即 Gauss 和的 p-adic 化身）；Theta 机器复解析与 p-adic 双轨确认
+- 解读系列新增：docs/walkthrough/21-G0统一引理与padic世界.md；数学背景笔记 21
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
