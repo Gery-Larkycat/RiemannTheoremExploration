@@ -54,6 +54,15 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 6. **EightfoldProjection**（CompanionTheory 侧，Zarhin 技巧内）——待查
 7. **SharpRestriction / LocalRingCardinality / FockGram / GelfandTransference**（Formalism 内）——名字即嫌疑工具，待查
 
+## 引擎侧发现（第二轮侦察补充）
+
+- GlobalTheory.Published 文献库：LocalLanglandsGL(1228) / CuspRapidDecay(1133) / HarishChandraModules(600) / GlobalArtinReciprocity(527) / CasselmanWallach(421) / HoweDualityReal(208) 等——文献定理一次性接入
+- WeilBound = Theta/Siegel-Weil/Eisenstein 分析机器（RegularisedSiegelWeil、SiegelEisensteinHalfPlane/SchwartzBruhatMajorants、ThetaLifts、FiniteTypeHarishChandra/GreenCuspidal）
+- 组装点 TopPlug.lean（19 行）：Green + VWin + HypsAlt ⇒ ZeroFreeAll；常数 la := 3/2 反复出现
+- EveryCharacterE.lean 配料：BhattScholzeCrystallineLattices / PrismaticDieudonne / SatakeParameters / WeilConvergenceOfSiegelSet / GlobalInterpolation
+- 新概念嫌疑升级：LiteralAutomorphy（字面自守性/rowRatW 行有理性）、BoundAtTwoAndThreeForFamily（2、3 处的界）、CovTop.CovolX、IndefiniteRowSideFullHecke.WeilTensorModels
+- 解读系列：docs/walkthrough/01-主线收束链.md、02-引擎深潜.md
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
