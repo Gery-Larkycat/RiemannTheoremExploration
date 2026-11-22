@@ -103,6 +103,16 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - **引擎总图闭合：经典 de la Vallée Poussin 骨架（切比雪夫窗口上界 => 对数导数控制 => 右半带无零）× 新燃料（宿主舞台供给上界：Poitou-Tate Sha 窗口 + 标签字典 + 链接网络）**
 - 解读系列新增：docs/walkthrough/06-放大机制.md；数学背景笔记 06
 
+## 平方根截断与 Landau 判据（第七轮侦察补充）
+
+- **核心不等式**：ChebyshevInequalityOnWindows（TopDefs.lean:26）结论 = Λ.Gm x ≤ x^(1/2 + (eD+eL+7)·eps)——平方根截断，GRH 等价语言
+- Landau.lean（592 行）：logDerivZeroFree 判据（P'=qP 正实部 ⇒ 无零点）+ re_gChi（复值量实部 = Gchi 正项和）+ sumLamChi（von Mangoldt 求和）——**Landau 1918 技巧引擎版**
+- Level 层 = InertJacobiLevels（48 文件）：两素数域（TwoPrimeFieldMemLevelOfCoprime）+ Jacobi 惯性类 + TiesAtY/Core/Asm/Lat 绑定族 + HostFam + VVEqEmpty
+- ExWin + ChainWin ⇒ AtWindowScale（tiedWin_of_ex 组合引理）
+- 引擎范式：正项和截断 ⇒ 指数型实部控制 ⇒（Landau 判据）零点自由
+- 剩余缺口：Gm 精确定义、LChain 代数定义、supplyOfAdm 构造、ExplicitFormulaError 本体、常数 7 出处
+- 解读系列新增：docs/walkthrough/07-平方根截断与Landau判据.md；数学背景笔记 07
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
