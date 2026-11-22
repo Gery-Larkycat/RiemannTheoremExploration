@@ -74,6 +74,16 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - Formalism.HC 驻扎 PrimeDiscriminants（RamDiscr/CycImage/HostRaw）——Host（宿主）概念家族待解剖
 - 解读系列新增：docs/walkthrough/03-窗口不等式与Green字典.md；数学背景笔记 03
 
+## Poitou-Tate 引擎核心（第四轮侦察补充）
+
+- LData（GaloisCohomology/Statement.lean:54）= (F 的 l-位集 S、位提升 A、分圆 l-adic 特征 chi)；QZ l = Q_l/Z_l
+- qzTw/zlTw = Tate 扭转；Sha/shaLen = 分圆扭转的 H¹ 限制核及其长度；VLen = H²(Z_l(e+1)) 长度
+- 四条 PT 假设（PTCokerAt/PTShaAt/TateLocalDuality/有限长度）⇒ **VFormula**：VLen + H⁰ = shaLen + Σ局部H⁰ —— VWin 之 V 同源于此
+- Selmer 框架：unrAt/bkCond/SelAll/selLen；InfUnram 无限位不分歧判据；Indep 长度不变性；LDataExists 存在性
+- 引擎故事线：素数对 → IsChiField 域 → LData → PT 长度平衡 → Selmer 长度解析估计 → 显式公式 → L 非零
+- 缺口：解析侧如何估计 Selmer/Sha 长度（shapeWin/supplyChi 定位于 CharacterBoxes/，下轮解剖）
+- 解读系列新增：docs/walkthrough/04-PoitouTate引擎.md；数学背景笔记 04
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
