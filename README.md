@@ -1,4 +1,4 @@
-# RiemannTheorem — 黎曼定理 Lean 证明解析项目
+# RiemannTheoremExploration — 黎曼定理 Lean 证明业余探索
 
 > 2026-11-20，Anthropic 数学家 [Levent Alpöge](https://alpo.ge) 与 Claude 合作证明了黎曼猜想（含广义黎曼猜想 GRH），并以 Lean 4 形式化发布。证明已通过 Lean/Mathlib 社区与全球多方独立编译验证。
 >
@@ -42,3 +42,13 @@ Clone 官方 Lean 证明档案，**合作解析、理解与阅读**这份 17.37M
 - Lean 与 Mathlib 社区 —— 证明基础设施与验证认证
 - [riemann-at-home](https://riemann-at-home.github.io/riemann-at-home/) —— 验证组织与档案元数据出处
 - [Scientific American 报道](https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/) —— 新闻背景
+
+## AI使用声明
+
+本项目由Larkycat使用Deepseek Harness + glm-5.3-flash探索性地尝试解读，不保证任何正确性。其中使用了约2k tokens的自用全局提示词。
+
+## 人类声明
+
+我只是一个普通的大学生，没有足够的能力理解和验证这份解读，尝试让AI探索这个项目并尝试向我解读，仅仅是因为好奇和好玩。
+
+另外，最前沿的进展可以通过开源的lean代码下载到我手上供我随意探索，这种感觉也很棒。开源万岁。

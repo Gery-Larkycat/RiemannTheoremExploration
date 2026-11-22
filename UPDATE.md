@@ -14,3 +14,5 @@
 - 项目定位升级（用户指令）：大量补充数学背景 + 重点提炼新数学结构与新工具；增加证明过程解读文档化（按侦察顺序成文，docs/walkthrough/）
 - 第二轮侦察：GlobalTheory.Published 文献库清单、WeilBound 分析机器结构、TopPlug 19 行组装点、EveryCharacterE 配料清单；新概念嫌疑 LiteralAutomorphy / BoundAtTwoAndThree / CovolX
 - 文档产出：docs/walkthrough/01、02，数学背景笔记 02-Theta对应与SiegelWeil，PROOF-MAP 引擎侧增补
+- 项目管理：README 用户改动入库（标题 RiemannTheoremExploration + AI/人类声明）；LICENSE = MIT；本地目录改名 RiemannTheoremExploration；决策 D6-D8；每 commit 后自动 push origin main
+- 文档产出：解读 03-窗口不等式与Green字典、数学笔记 03-类群Sha与Brauer类群塔

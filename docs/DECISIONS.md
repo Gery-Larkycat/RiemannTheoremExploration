@@ -20,6 +20,18 @@
 - **决策**：手动按官方元数据下载 14 分片（curl 并行）→ 按序拼接 → sha256 校验 → 解压。元数据（分片数、总字节、sha256、工具链、Mathlib rev）取自官方 CLI 源码常量。
 - **备选**：直接运行 riemann-at-home CLI——被否，安装位置与副行为不受控。
 
+## D6 — 项目改名 RiemannTheoremExploration
+- **背景**：用户在 README 已将标题改为「RiemannTheoremExploration — 黎曼定理 Lean 证明业余探索」，remote 仓库名同名，并指示本地目录同步改名。
+- **决策**：本地目录 mv 为 RiemannTheoremExploration；文档中项目名随改，简称不变（「黎曼定理」称谓不受影响，见 D1）。
+
+## D7 — MIT 协议
+- **背景**：用户指定开源协议。
+- **决策**：LICENSE 采用 MIT，版权行 Copyright (c) 2026 Larkycat (Gery-Larkycat)。
+
+## D8 — 每次提交后自动同步 remote
+- **背景**：用户要求每次 commit 后自动 push；remote 已配置 origin=https://github.com/Gery-Larkycat/RiemannTheoremExploration.git。
+- **决策**：执行纪律约定——每次 commit 后立即 push origin main（当前分支 main）；推送失败时记录原因并继续本地工作，不阻塞阅读主线。未使用 post-commit hook（避免 hook 内网络失败阻塞提交）。
+
 ## D5 — git 用户配置占位
 - **背景**：本机无全局 git user.name/email，commit 需要身份。
 - **决策**：仓库级配置 user.name=larkycat、user.email=larkycat@localhost（本地占位，仓库无远端推送需求）。
