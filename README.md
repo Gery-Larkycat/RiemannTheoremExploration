@@ -8,6 +8,8 @@
 
 Clone 官方 Lean 证明档案，**合作解析、理解与阅读**这份 17.37M 行的人类/AI 合作证明。明确不做本地完整编译验证（Riemann@home 已有全球多人独立验证通过）。
 
+**阅读入口**：[docs/PROOF-OVERVIEW.md](docs/PROOF-OVERVIEW.md)（证明全链地图）· [docs/PROOF-MAP.md](docs/PROOF-MAP.md)（地形图）· [docs/NEW-MATH.md](docs/NEW-MATH.md)（新数学结构提炼）· [docs/walkthrough/](docs/walkthrough/)（24 篇逐步解读）· [docs/vibe-coding/knowledge4newbee/riemann-proof/](docs/vibe-coding/knowledge4newbee/riemann-proof/)（数学背景笔记）
+
 ## 官方档案元数据
 
 | 项 | 值 |
