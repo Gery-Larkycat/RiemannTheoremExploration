@@ -150,6 +150,14 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - SharpRestriction 子目录群 = "平方根截断构造图纸区"
 - 解读系列新增：docs/walkthrough/11-RhOfRight反射封口.md；数学背景笔记 11
 
+## 装配主车间与 GL4 分支链接（第十二轮侦察补充）
+
+- **装配主车间**：RiemannHypothesisOfEveryCharacter.lean（231 行）= rhOfAll 供给链实体；imports 配料表含 SiegelWeil 酉收敛、Satake 参数、离散系列分类、Gauss-Manin 周期、**SiegelKlingenDeligneRibetOfBoth（特殊值定理群）**、Eisenstein 延拓、晶体 deRham——权威的"证明用了哪些数学"清单；第 213 行 modOne 退化入口
+- **LandauTheorems 工具箱**（DedekindLFunctions/，36 文件）：Landau 九件套（Cauchy/Dichotomy/Finite/GrowthContra/KernelMax/Nearest/PoleAsym/PoleReLe/Coeff）+ CharFamilyLFunctionNeZeroOfOneLeRe（族版主项判据）+ MellinRamp——与 TotientGaloisClasses/Landau.lean 构成上下两级
+- **GL4 分支链接**：LinkGLOBAL7Tied4 运行于 GL4（GlobalTheory/GL4/，BranchingLinkFamilyNormalised/ColumnLatticeExactSlope）；链接层级坐标初定（GLOBAL7 = 全局层级，Tied4 = 绑定层级）；GL3/GL4 并存 = Theta 提升梯子
+- 架构六层图（层 0 收束 / 层 1 桥 / 层 2 引擎组装 / 层 3 解析机器 / 层 4 几何机器 / 层 5 文献）见解读 12
+- 解读系列新增：docs/walkthrough/12-装配主车间与Landau工具箱.md；数学背景笔记 12
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
