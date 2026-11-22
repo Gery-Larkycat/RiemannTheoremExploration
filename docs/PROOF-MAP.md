@@ -165,6 +165,12 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - **MainTheoremsCritical = 类数三临界件**：SmallClassNumbers 三件（ClassNumberThree/LenEqZeroIff/OnePoint）——小类数边界情形修补层首例
 - 解读系列新增：docs/walkthrough/13-双装配通道与类数三临界.md；数学背景笔记 13
 
+## Landau 二分法与 Level-3 退化（第十四轮侦察补充）
+
+- **LandauDichotomy 全文**（91 行）：landau_dichotomy 二分定理——左支真空半径 D（Z 与 B(σ,D) 不相交 + 最右点），右支孤立实点 β；landau_finite（局部孤立⇒紧内有限）+ exists_min_image；右支由正项和正性排除——窗口化界（Window.lean:26 反证形态）的数学基础
+- **SmallClassNumbers 认知修正**：classNumber (Kstar 3) = 1 是引擎 Level-3 星型域的分类数平凡（非虚二次域类数问题）；eq_one（模 2 特征恒主）；MainTheoremsCritical = 最小层级/最小模退化特判层
+- 解读系列新增：docs/walkthrough/14-Landau二分法本体.md；数学背景笔记 14（含术语核对方法论提醒）
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
