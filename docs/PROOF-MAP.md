@@ -133,6 +133,15 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - 剩余缺口（技术性）：LChain/LHost 物理路径、常数 7、Link 网络细节、ExplicitFormulaError 本体
 - 解读系列新增：docs/walkthrough/09-Gz主项与族连通.md；数学背景笔记 09
 
+## 条件主定理双璧与命名空间组织学（第十轮侦察补充）
+
+- **PowerBoundGivesRiemannHypothesis.lean 全文**：双条件主定理——(1) LandauZeroFreeHalfPlane：Gz y ≤ y^theta => zeta 在 Re>theta 无零点；(2) PowerBoundGivesRiemannHypothesis：Gz x ≤ x^(1/2+C·eps)（每个 eps 最终恒成立）=> RH。**RH 当且仅当 Gz 增长指数 = 1/2**
+- Gz = 主特征主项（解读 09）；zeta 通道（Gz 素数计数一己之力）与 GRH 通道（EveryCharacter 全特征压制）并行；实际证明走 GRH 通道（rhOfAll 经 rh_of_every）
+- **命名空间组织学**：LFunctionChainParameters 家族物理实现在 SizeWindowBrackets/（64 文件 / 28,345 行；namespace 与路径解耦，LChain6/LHost/LBrDiv/LBr2 多轮生成痕迹；ChainSlopeWindows/ 子目录 = 常数预算推导地）
+- 全库 157 文件引用该家族、0 个 import 行——逻辑架构与物理架构是两套坐标系
+- 常数 7 澄清：exists_small_eps (eD+eL+7) —— 误差预算打包常数（非深奥常数）；另 (7:ZMod 16)^k 群论性质对应 d≡7 mod 16
+- 解读系列新增：docs/walkthrough/10-条件主定理双璧.md；数学背景笔记 10
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
