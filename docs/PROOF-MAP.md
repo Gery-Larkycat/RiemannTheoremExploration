@@ -179,6 +179,13 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - 两条腿会师：Poitou-Tate 记账规则 × Kato Euler 系统上界数值 = Sha/Selmer 窗口的文献级来源
 - 解读系列新增：docs/walkthrough/15-Kato与TaylorWiles.md；数学背景笔记 15
 
+## TW 障碍界与 Kato 定理直译（第十六轮侦察补充）
+
+- **TaylorWilesObstructionBound 本体**（156 行）：Norm = TW 提升障碍界命题（注入有限提升 j + 行列式/特征相容 + N3/N4）；**CohP 结构体** = Poitou-Tate 性质包（lf/lt/le/gf/ge/gw GreenbergWiles/pt PoitouTateNormalised/tame）；**HidaSetting** 出场（Hida 族框架）
+- **KatoLitO/KatoO 直译**（31 行）：Deligne 模性表示（∃ V 连续 ∧ FrobPoly）+ 非临界扭转（2r≠k）Selmer 有限性——**文献供"有限"，引擎供"多少"**的分工确认
+- PT 机器三份正式化：Statement.lean（引擎侧）/ CohP（TW 侧）/ PoitouTateNormalised（文献侧）
+- 解读系列新增：docs/walkthrough/16-TW障碍界与Kato定理直译.md；数学背景笔记 16
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
