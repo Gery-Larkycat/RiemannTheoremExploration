@@ -202,6 +202,14 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - 引擎区划总表（11 区）见解读 18
 - 解读系列新增：docs/walkthrough/18-高度消失区与均方界.md；数学背景笔记 18
 
+## 机器汇合点与小零点宝石（第十九轮侦察补充）
+
+- **机器汇合**：pairEx_g 证 An.gChi = Gchi（Landau 复量 = 均方正项和）——Landau 机器与均方机器在对象层面汇合；**Gchi 精确定义定格**：Σ Λ(n)·χ(n)·max(y/n−1, 0)（ramp 权离散 Landau）
+- log_exp_product_bounds：WinPair 上界（log q ≤ Y^(eps/5)、log d ≤ Y^(eps/5)·log²Y、3 系数、8M 与 mod 8）的推导出处
+- **SmallZeros 全文**（47 行）：noExc_one（L(1,χ)≠0 + 连续性）→ noExc_level（固定模有限）→ small_zeros（对 N₀ 归纳取 min ⇒ 所有 N≤N₀ 非主特征在 (1−c₀,1) 一致无零）——Re≈1 处的兜底带，大小两层配合
+- namespace QH（MeanSquareBounds 容器）语义待定
+- 解读系列新增：docs/walkthrough/19-机器汇合点与小零点宝石.md；数学背景笔记 19
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
