@@ -194,6 +194,14 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - GreenbergWiles 多源：GalCoh.lean:175 定义 + GreenbergWilesOfPoitouTate（EulerChar+Finite ⇒ GW）+ 文献版
 - 解读系列新增：docs/walkthrough/17-Kstar虚二次域舞台.md；数学背景笔记 17
 
+## 三区定性：高度消失/均方界/GL3 逆定理（第十八轮侦察补充）
+
+- **HeightAndVanishing**（59 文件）：BchiFacts（Bernoulli 回归）、CM 2-adic 界、Count 计数族、GdOfHost/GdIffIndex（Gd 绑定宿主）、EtaKer、FinalLe/U——Kstar 类群与 Gd 量绑定到 Host 的判据区
+- **MeanSquareBounds**（36 文件）：GaussSumFunctionEq（Gauss 和）、meanSqK 均方量、**pairEx = 好素数对存在定理**（pairEx_lift/box/g 三引理；QH.pairEx 出处）、CountBad/BadShare 坏份计数、kappa4loglog、Stage 阶段推进、SmallZeros
+- **BlockDecomposition**（AutomorphicSpectrum）：ShintaniFormulaGL3Diag + ConverseTheoremConstantTerm（GL3 逆定理）——波的"自守户籍"登记
+- 引擎区划总表（11 区）见解读 18
+- 解读系列新增：docs/walkthrough/18-高度消失区与均方界.md；数学背景笔记 18
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
