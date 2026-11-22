@@ -252,6 +252,13 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - **docs/NEW-MATH.md 落盘**：新数学结构与工具提炼报告——方法级 4 项（窗口体系/宿主舞台/形式桥网络/桥接焊点）、对象级 4 项（抽象层级语言/LiteralAutomorphy/Host 家族/G 系列谱系）、定理级 2 项、工具级 3 项、常数体系 1 项；每项含实锤/推断置信度标注与经典对应物
 - 侦察转向提炼与综合（边角深化按需）
 
+## 供给收官与 LinkGLOBAL 定谳（第二十五轮侦察补充）
+
+- **LinkGLOBAL 定谳**：参数化谓词族 LinkGLOBAL Fm Cabs CH C0 eD eL；LinkGLOBAL7 = 第 7 变体、Tied4 = 第 4 类绑定（版本化命名，非深奥常数）——定谳；配套测量词 TuSize/DGamSize/CoverAll/MuRank
+- **supplyOfAdmOf 全验证收官**（135 行三段覆盖）：尾段 QS 预算链（nlinarith 簿记）→ 宿主实例化 → 素因子限制（l|QS ⇒ l|2ψN）→ boundedTw → IsChiField 落地 → VVle mono → HostExW 四元组输出——**装配完整闭合**
+- "程序阅读法"总结：obtain 剥洋葱 / by_cases 分叉 / nlinarith 簿记 / mono 传递——导航 17M 行的四模式（解读 25 + 笔记 25）
+- 解读系列新增：docs/walkthrough/25-供给装配线全验证.md；数学背景笔记 25
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
