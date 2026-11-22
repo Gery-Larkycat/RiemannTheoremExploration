@@ -259,6 +259,13 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - "程序阅读法"总结：obtain 剥洋葱 / by_cases 分叉 / nlinarith 簿记 / mono 传递——导航 17M 行的四模式（解读 25 + 笔记 25）
 - 解读系列新增：docs/walkthrough/25-供给装配线全验证.md；数学背景笔记 25
 
+## 常数 7 定谳与 chiD 体系（第二十六轮侦察补充）
+
+- **LinkGLOBALPk 条件清单**（56 行）：tVol 标准格绑定 / tOm 判别式十二次根+OmLink / tFree 薄自由 / **tTh ExistsTwelfthRootCharacterThetaFamily C22** / **t7 flipTwoThree.admF7** / tCV ColVal / t10 IncidenceTransport + s59/s22/s23/s24/s10/provedFourF/provedFiveF/hF3 编号命题库——**常数 7 终极定谳：flipTwoThree 容许族 7**（2-3 翻转体系）；链条 FamGL → linkGLOBAL_pk → LinkGLOBAL → TopG
+- **GL3Theta 中段 chiD 体系**：类群特征赋值（代数整数单位/惰性位范数 1/幂方程 chiD^h = Π emb(z)^(-1)）+ **NormOnePowerPrincipal 类群主化** + powRatAll_of——**Kstar 虚二次域类群 = 读数体系的群论底座**（实锤）
+- supplyOfAdmOf 三段全覆盖收官确认
+- 解读系列新增：docs/walkthrough/26-常数7定谳与chiD体系.md；数学背景笔记 26
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
