@@ -239,6 +239,14 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - InducedCMType：Kstar CM 型作为宿主体系对称性种子
 - 解读系列新增：docs/walkthrough/23-TwistedTheta陈述与Weyl维数.md；数学背景笔记 23
 
+## Greenberg-Wiles 本体与供给收口（第二十四轮侦察补充）
+
+- **TwistedThetaTheorem 定义体**：对每曲线理想 cc/每判别根 δ/每特征 chi，存在 e: FamE 满足九条矩（vec22/th22(C)/**eq22(χ)**/int22/mom22/LSM/str22）+ famItems + X——特征化扭曲 Theta 模性
+- **GreenbergWilesAt 本体**（GalCoh.lean:175）：前提 = PTShaAt 基数相等 + 有限性（Statement.lean 四假设的服务对象确认）；结论 = 带 Selmer/局部因子/实位因子的 Euler 示性数平衡式——**长度记账的文献级原件**
+- **supplyOfAdmOf 尾部闭合**：hQS 预算 → hA 宿主实例化 → hprime（QS 素因子 ⊆ 2ψN）→ boundedTw 有界扭转 → isChiField 落地 → VVle mono → HostExW 输出——装配完整
+- **主干侦察完成**：24 轮覆盖全部主区块，剩余边角（LinkGLOBAL7 层级表/GL3Θ↔GL4 梯子/GL3Θ 前 900 行 p-adic 细节）为技术性深化
+- 解读系列新增：docs/walkthrough/24-GreenbergWiles本体与供给收口.md；数学背景笔记 24
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
