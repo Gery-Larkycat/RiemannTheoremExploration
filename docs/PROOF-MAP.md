@@ -147,6 +147,16 @@
 - U1 底层定义待溯（imports 深处：FiltrationBoundaryCriterion/CocycleLiftCriterion/ParConsts）
 - 解读系列新增：docs/walkthrough/39-GL3Theta完整理论栈.md；数学背景笔记 39
 
+## U1/IsTheta0 定谳与 aux₃ 45 条量规（第四十轮侦察补充）
+
+- **al1 平移符号因子**：(−1)^round(√d/2·|x|²/area)——虚二次域二次型的 Gauss 相位（解读 34 (−1)^m 的格平移层实现）
+- **IsTheta0**：全纯 + 平移关系 + G(0)=1——Theta 良构谓词；**normSq1** = exp(−π|z|²/area) 加权 L² 积分（Theta 核）
+- **thPow 幂公式**：normSq = normSq1^(fF·N·N')——**矩条件指数 = 维数乘积**（Weil 表示张量积结构）
+- **famItems 五件套**：intOrtho/intHyp/prim/kerComb/**thPow**
+- **aux₃ = 45 条合取对数量规包**（LatticeGrowthBound 26 + SplitModelProperties 16 + DetChar 3）；Stmt = Adm3s(3) → aux₃(45)——「3 条容许换 45 条量规」复利式结构
+- 新词汇登记 14 项（phW/isoF/endIntW/beW/PhDualW/modelShort/phEven/beGc/okpInert/supH/iopUnitary/repEx/detIdP/repExS）
+- 解读系列新增：docs/walkthrough/40-U1定谳与45条对数量规.md；数学背景笔记 40
+
 ## 7. 下一步侦察队列（低优先边角，按需）
 
 - [ ] LinkGLOBALPk FamGL 后续字段（s 系列之外的槽位）
