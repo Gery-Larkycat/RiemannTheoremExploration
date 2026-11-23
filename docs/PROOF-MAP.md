@@ -272,6 +272,14 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - **admF 编号族**：admF5/admF7/admF9（VanishingOnXAndXPlusBranching 消失分支容许族序列）+ FlagMeasures/AmpBoundsUniform/LocalNongenericBoundRecord 配套 + **SiegelMassRatio**（mass 公式判别式根出处，解读 22 的经典原型）
 - 解读系列新增：docs/walkthrough/27-翻转闭包与容许族.md；数学背景笔记 27
 
+## GL3Theta 真身：椭圆曲线 p-adic 形式群（第二十八轮侦察补充）
+
+- **G1 结构揭秘**（GL3Theta 68-105 行）：lam 嵌入 + abelian₂ 复格 + WeierstrassCurve 变量变换 + wq/ex 幂级数——**椭圆曲线的 p-adic 形式群图式**；W = C•wModel（p-adic 模型）、l = flog（**形式对数**）、ph = −logMv(ePhi1)（**CM 椭圆函数 log**）、be a b = 双线性偏差检验；At = 与宿主曲线理想/判别式根绑定
+- **GL3Theta 在椭圆曲线 p-adic 形式群上运行 GL3 Theta**——Kstar CM 域经 ePhi1 获得几何实现（解读 17 的延伸）
+- **双副本现象实锤**：gauss_sum_function_eq 两份私有副本证明体实质相同（tactic 风格微调）——AI 生成以模块自足换零耦合，冗余可压缩（对应 blueprint 的 -46.6%）
+- **FamGL 五参数**：C0/eL/C3/**crystallineComparison（晶体比较常数）**/C22
+- 解读系列新增：docs/walkthrough/28-椭圆曲线形式群.md；数学背景笔记 28
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
