@@ -342,6 +342,14 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - 新词汇登记：beConj/beDiag/splitZero/atTwo/transl/jetsPh/PhUnitary/PhIsotropic/PhDual/orthoEx/**phW**/JetTorsionCompatibility/ThetaDivisorCompatibility/chiRec
 - 解读系列新增：docs/walkthrough/36-RelDetPinned生态与二十接口族.md；数学背景笔记 36（Witt 浅尝）
 
+## RelDetPinned 证明链与 RS 机器（第三十七轮侦察补充）
+
+- **RelDetPinned 证明链完整**：detId_eq（分式理想类还原）/ pinned_of_equiv（构造路线）/ **relDet_eq_of_pinned 大定理**（adelic relDet = dt 像；使用解读 33 powRatAll_of + NormOnePowerPrincipal + val_eq_pow——跨文件复用实锤）/ **pinned_of_finer**（SQ 素数集细化存在性——Pinned 非空构造定谳）
+- RelDetPinned 语义终定位：**adelic 相对判别式与类域映射一致性钉住**（adeles + 类理想 + 分式理想类）
+- **Rankin-Selberg 球形机器**（BlockDecomposition/NormCpowLtOne）：Spherical.sphericalWhittaker + Spherical.schur ![a,b,0] + ∏(1−λ_i y_j q^(−s))⁻¹（GL3×GL2 RS 卷积局部因子）+ NormCpowLtOne（范数幂驯服）
+- phW 同名异义修正（EtaleSheaves 版非 Witt 版）
+- 解读系列新增：docs/walkthrough/37-RelDetPinned证明链与RS机器.md；数学背景笔记 37
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
