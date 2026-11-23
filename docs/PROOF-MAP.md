@@ -317,6 +317,14 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - liftTie = 相邻格对 IsKer + 多项式相容（unf∘evFr = applyAt0∘polD∘Th）
 - 解读系列新增：docs/walkthrough/33-LiftObj提升对象与IsKer.md；数学背景笔记 33
 
+## Weil 表示换格链与 2-上循环（第三十四轮侦察补充）
+
+- **换格公式 modelXi**：Theta 值 = 算子作用于指示函数；换格缩放律 = **1/sqrt(volP)**（格指标比开方——Siegel-Weil 经典现象 p-adic 级）
+- **movesCompose**：Iop(L2,L3)∘Iop(L1,L2) = Iop(L1,L3)——**ChainTied 之链 = 换格算子链**（数学身份定谳）
+- **Weil 相位三件套**：wPhase（p^k·qH(x) = m ⇒ wPh = (−1)^m，Gauss 和符号——**素数对 mod 8/16 条件的动机定谳**）；wOnLattice（格上 = 代数量）；**wCocycle**（W(x)∘W(y) = c·W(x+y)，c^(p^k)=1 且 **c² = kap**——投影表示 2-上循环）
+- PhiHat：p-adic 局部常函数（Schwartz-Bruhat 的 p-adic 侧）
+- 解读系列新增：docs/walkthrough/34-Weil表示换格链与上循环.md；数学背景笔记 34
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
