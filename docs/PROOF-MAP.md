@@ -301,6 +301,13 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - 组织学四特征全部实录：深嵌套/双副本/编号族/命名空间桥接
 - 解读系列新增：docs/walkthrough/31-斜率族定位与深嵌套观察.md；数学背景笔记 31
 
+## 列链特征与 Petersson 界（第三十二轮侦察补充）
+
+- **rhoCh 列链特征体系**（GL3Theta 460-520）：rhoOf/rhoOf' = 列特征 × chiD 半幂扭转（N(i)/2 宽度进扭转指数）；CarriesTupleCharacters 列链携带特征；rhoThreeOf 三性质（Mod1E 单位/有限阶/**sSharp 嵌入公式** rhoOf(e1Dt z) = Π emb(z)^(−sSharp)）；**lift_eqC 类群特征和公式**（稳定子倒数加权 × rho 乘积 × 除子）——解读 22 类群特征和的显式实现
+- **LocalQuadraticParts**（807 行）：**Petersson 界三件套**（AtEmbedding/AllEmbeddings/FixedEmbedding）——均方界（解读 18）的文献级引擎室；DivisibilityLatticeMetricCondition/RRMetricDef/QPart
+- 主链补全：类群特征和（rhoCh+lift_eqC）→ 宿主读数 → PT 记账 → … → RH；Petersson（文献工具）⟷ MeanSquareBounds（引擎装配）对接
+- 解读系列新增：docs/walkthrough/32-列链特征与Petersson界.md；数学背景笔记 32
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
