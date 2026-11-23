@@ -335,6 +335,13 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - **Pinned D** = 存在 RelDetPinned idl——**解读 03 Hyps 非空谜底**；InducedCMType（嵌入单值）；HostFieldConditions = TaylorLogMetric.adm1；Statement 命名空间组装接口族（GL3Theta 内部小形式桥）
 - 解读系列新增：docs/walkthrough/35-j不变量1728与Xi公式族.md；数学背景笔记 35
 
+## RelDetPinned 生态与二十接口族（第三十六轮侦察补充，轻量）
+
+- **RelDetPinned 生态**：定义（LatticeIntegralCoordinates.lean:271）/证明（RelDetAdelicOfPinned.lean:564 relDet_eq_of_pinned）/下游（JetTorsionCompatibility/ThetaDivisorCompatibility/chiRec_bot）
+- **GL3Theta 二十接口族全录**：模型系/积分系/立方系/双线性系（beConj/beDiag）/相位系（PhaseNorm/JetsPhase/**PhaseUnitary/PhaseIsotropic/PhaseDual/PhaseWitt**）/特殊系（SplitZero/AtTwo/Translation）/正交存在（orthoEx）——单文件 1013 行理论密度惊人
+- 新词汇登记：beConj/beDiag/splitZero/atTwo/transl/jetsPh/PhUnitary/PhIsotropic/PhDual/orthoEx/**phW**/JetTorsionCompatibility/ThetaDivisorCompatibility/chiRec
+- 解读系列新增：docs/walkthrough/36-RelDetPinned生态与二十接口族.md；数学背景笔记 36（Witt 浅尝）
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
