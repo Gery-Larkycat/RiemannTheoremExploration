@@ -325,6 +325,16 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - PhiHat：p-adic 局部常函数（Schwartz-Bruhat 的 p-adic 侧）
 - 解读系列新增：docs/walkthrough/34-Weil表示换格链与上循环.md；数学背景笔记 34
 
+## j-不变量 1728 现形与 Xi 公式族（第三十五轮侦察补充）
+
+- **admJ 定义**（Adm3s 成员）：IsIntegral Z (1728·g2(lamOf cc delta)^3)——**CM j-不变量代数整数性定理的引擎化**（1728 = j 经典分母；CM j 生成 Hilbert 类域）
+- **PhiHat**：p-adic 均值 × **kap 倒数权**（2-上循环倒数作归一化权重——障碍变资源）
+- **xi_formula**：XiF = PhiHat 权 × Wop 求和（局部常函数 → Weil 算子组合的桥）
+- **xiOne**：Phi=1 时 Xi 恒等（p=2 ∨ SplitK——特殊素数集 S 成员平凡性）
+- **xiMove**：换格 Xi 完整版（EqAway + NNBasis 双基 + 基变换矩阵 c 的 p-adic 单位 + Phi = c 像指示函数 ⇒ sqrt(index)·XiF）
+- **Pinned D** = 存在 RelDetPinned idl——**解读 03 Hyps 非空谜底**；InducedCMType（嵌入单值）；HostFieldConditions = TaylorLogMetric.adm1；Statement 命名空间组装接口族（GL3Theta 内部小形式桥）
+- 解读系列新增：docs/walkthrough/35-j不变量1728与Xi公式族.md；数学背景笔记 35
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
