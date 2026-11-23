@@ -157,6 +157,14 @@
 - 新词汇登记 14 项（phW/isoF/endIntW/beW/PhDualW/modelShort/phEven/beGc/okpInert/supH/iopUnitary/repEx/detIdP/repExS）
 - 解读系列新增：docs/walkthrough/40-U1定谳与45条对数量规.md；数学背景笔记 40
 
+## fF 定谳与新词汇定性（第四十一轮侦察补充，轻量）
+
+- **fF 定谳**：fF = finrank Q F = **宿主域次数 [F:Q]**（SiegelMassRatios/MassRatio.lean:19——质量比率维数参数）；thPow 幂公式 = normSq1^([F:Q]·N·N')——域次数 × 格维数记账
+- **phW/beW 定谳**：Frobenius 纤维曲线版相位族（FrobeniusFibreCurves/StatementW.lean——与 p-adic 形式群 G1 平行的第二实现）
+- 其余新词汇归入 GL3Theta/SizeWindowBrackets 接口族（语义按名可推）
+- **新词汇定性完成宣言**：40 轮全部新词汇已定性
+- 解读系列新增：docs/walkthrough/41-fF定谳与新词汇定性.md；数学背景笔记 41
+
 ## 7. 下一步侦察队列（低优先边角，按需）
 
 - [ ] LinkGLOBALPk FamGL 后续字段（s 系列之外的槽位）
