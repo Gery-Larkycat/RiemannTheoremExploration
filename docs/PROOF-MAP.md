@@ -138,6 +138,15 @@
 - **atTwo**：2-挠点真奇性（log 消失但增长率超几何）——素数 2 特殊性定谳（需宿主素数对单独处理）
 - 解读系列新增：docs/walkthrough/38-相位函数理论栈.md；数学背景笔记 38
 
+## GL3Theta 完整理论栈 16 层（第三十九轮侦察补充）
+
+- **GL3Theta 文件身份终定**：CM 形式群上的 Weil 相位理论完整栈（1013 行 16 层）——形式群/绑定/Jacobi 分类/模型存在/立方/双线性/积分/CM 规范/共轭/**分裂消失**/对角/射流/Taylor 化身/挠点/Weil 算子/族化
+- **关键公式**：CM 相对范数缩放（phAt(mulBy α.1 Xv) ≃ N(α)·phAt(Xv)，N(α) = α.1·α.2）；**分裂消失**（SplitK ⇒ be ≃ 0 ∧ ph ≃ 0）；对角关系（be(Xv,Xv) ≃ 2·ph）；**ser1/atU Taylor p-adic 化身**（iteratedDeriv n G 0 / n! 经 lam → 形式对数代入）
+- **素数三分类机制**：分裂位消失 / 惰性位 ModelOverW / 分歧位 √p 收缩
+- **IsTwoTorsionPointUnkilled**：CM 杀伤测试（(1+i√d)/2 平移不抹掉）——2-挠真奇性判据
+- U1 底层定义待溯（imports 深处：FiltrationBoundaryCriterion/CocycleLiftCriterion/ParConsts）
+- 解读系列新增：docs/walkthrough/39-GL3Theta完整理论栈.md；数学背景笔记 39
+
 ## 7. 下一步侦察队列（低优先边角，按需）
 
 - [ ] LinkGLOBALPk FamGL 后续字段（s 系列之外的槽位）
