@@ -280,6 +280,13 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - **FamGL 五参数**：C0/eL/C3/**crystallineComparison（晶体比较常数）**/C22
 - 解读系列新增：docs/walkthrough/28-椭圆曲线形式群.md；数学背景笔记 28
 
+## GW 平衡式全形与 At 八推论（第二十九轮侦察补充）
+
+- **GreenbergWilesAt 平衡式完整形式**：card(Sel(rho,L))·card(H0(rho*))·Π局部 H0·archH0Card = card(Sel(rho*,perpCond(L)))·card(H0(rho))·Π card(L v)——perpCond 正交对偶条件包；arch 实位因子
+- **PT 正式化确认为四份**：Statement.lean（引擎侧 VFormula）/ CohP（TW 侧）/ PoitouTateNormalised（文献侧）/ GalCoh PT 假设区（LocalFiniteness/LocalTateDuality 全称包 + GreenbergWilesAt）——同一数学四种粒度
+- **At 八推论**：GL3Theta 的形式群绑定谓词带八条推论（谓词-推论组织法）
+- 解读系列新增：docs/walkthrough/29-GW平衡式全形与At八推论.md；数学背景笔记 29
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
