@@ -165,6 +165,14 @@
 - **新词汇定性完成宣言**：40 轮全部新词汇已定性
 - 解读系列新增：docs/walkthrough/41-fF定谳与新词汇定性.md；数学背景笔记 41
 
+## 社区骨架交叉验证 100% 命中（第四十二轮侦察补充）
+
+- **交叉验证 100% 命中**：40 轮侦察发现与 rosetta 独立骨架（dial481/riemann-hypothesis-rosetta 200 模块注释列表）逐一对应——UpperTheory.Gal.Int（Rank 1 galoisLocalGlobalStrong_recParameter）/ 窗口体系（Rank 8/10）/ RhoDetPrime（Rank 3）/ WeilTensorModels（Rank 9）/ EveryCharacterOfLiteratureOfVWin（Rank 19）/ wittIdx（Rank 20）/ hypsE₂（Rank 21）/ Kato-ZetaUr（Rank 32）
+- **RowSrc.lean = 最大枢纽**（Rank 1，688 行，import 闭包 37.8%）——Galois 表示供给侧总阀门（我方未识别的枢纽地位，rosetta 补齐）
+- 新发现：权一几何实现 / GoodTower 体积定理 / Kodaira-Spencer / GAGA / **上游修剪进行中**（e5ae821a 已删 14.7%，证明是活的版本演化）
+- 方法论：import 引用统计（我方）× 闭包大小统计（rosetta）两口径互补
+- 解读系列新增：docs/walkthrough/42-社区骨架交叉验证.md
+
 ## 7. 下一步侦察队列（低优先边角，按需）
 
 - [ ] LinkGLOBALPk FamGL 后续字段（s 系列之外的槽位）
