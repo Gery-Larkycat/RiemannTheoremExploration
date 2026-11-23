@@ -130,6 +130,14 @@
 | 36 | 36-RelDetPinned生态与二十接口族 | 生态闭环/二十接口 |
 | 37 | 37-RelDetPinned证明链与RS机器 | 大定理/RS 球形机器 |
 
+## 相位函数理论栈（第三十八轮侦察补充）
+
+- **PhIsotropic**【消失机制完全体】：迷向组（hP 全零）+ Primitive ⇒ **PhOn ≃ 0**（相位级数完全消失）——HeightAndVanishing 的数学引擎
+- **PhUnitary**：正交系 ⇒ PhOn 可加分离；**PhDual + DualIso + beSum**：互双正交对 ⇒ 对偶分解
+- **jetsPh**：p ≠ d ⇒ 整数；**p = d ⇒ ‖jetPh 2‖ ≤ √p**（平方根截断在相位射流层再现；临界例外与 Kato 2r ≠ k 同构）
+- **atTwo**：2-挠点真奇性（log 消失但增长率超几何）——素数 2 特殊性定谳（需宿主素数对单独处理）
+- 解读系列新增：docs/walkthrough/38-相位函数理论栈.md；数学背景笔记 38
+
 ## 7. 下一步侦察队列（低优先边角，按需）
 
 - [ ] LinkGLOBALPk FamGL 后续字段（s 系列之外的槽位）
