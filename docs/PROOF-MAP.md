@@ -308,6 +308,15 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - 主链补全：类群特征和（rhoCh+lift_eqC）→ 宿主读数 → PT 记账 → … → RH；Petersson（文献工具）⟷ MeanSquareBounds（引擎装配）对接
 - 解读系列新增：docs/walkthrough/32-列链特征与Petersson界.md；数学背景笔记 32
 
+## LiftObj 与 IsKer：证明本体深层（第三十三轮侦察补充）
+
+- **lift_eq 全局版确认**（rhoCh 除子级数全 Word 成立）
+- 多项式工具组：applyAt0（Taylor 系数提取）/ FrV 帧坐标 / evFr 求值 / polD 降维代入
+- **IsKer 核心谓词**：Theta = Σ r_k·U(T,t_k,e)(z) 有限组合，r_k ∈ Qbar（代数系数）+ p ∉ S 时 p-adic 积分 ≤1（**特殊素数集 S 现形**——BoundAtTwoAndThree 呼应）+ 公共整除指数 a——**Kudla 代数性核心**
+- **LiftObj 巨型规范**：mt/SDLat/格积分坐标/dt_lat（商群=relDet）/c13/frm 系（注入+满射+de=行列式）/**dgen 中间域 M 主化**（ellT = Z_M·s）/S/Th——提升对象全规范
+- liftTie = 相邻格对 IsKer + 多项式相容（unf∘evFr = applyAt0∘polD∘Th）
+- 解读系列新增：docs/walkthrough/33-LiftObj提升对象与IsKer.md；数学背景笔记 33
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
