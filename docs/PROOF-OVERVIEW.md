@@ -55,7 +55,7 @@
 
 ## 新数学结构与工具
 
-见 docs/NEW-MATH.md（方法级 4 项 / 对象级 4 项 / 定理级 2 项 / 工具级 3 项 / 常数体系）。
+见 docs/NEW-MATH.md（方法级 4 项 / 对象级 4 项 / 定理级 2 项 / 工具级 3 项 / 常数体系）。后 20 轮侦察补充定谳：**迷向消失机制**（PhIsotropic，HeightAndVanishing 引擎室）、**Weil 2-上循环 kap**（投影表示障碍，素数对 mod 条件钉死）、**j-不变量 1728·g₂³ 代数整数性**（admJ，CM 定理）、**aux₃ 45 条对数量规包**、**fF = [F:Q] 域次数**（thPow 幂公式 normSq1^([F:Q]·N·N')）、**Rankin-Selberg 球形机器**（Schur 多项式 + 球形 Whittaker）。
 
 ## 阅读路线建议
 
