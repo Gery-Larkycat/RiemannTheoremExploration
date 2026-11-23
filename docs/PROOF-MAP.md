@@ -287,6 +287,13 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - **At 八推论**：GL3Theta 的形式群绑定谓词带八条推论（谓词-推论组织法）
 - 解读系列新增：docs/walkthrough/29-GW平衡式全形与At八推论.md；数学背景笔记 29
 
+## At 八推论全解与 FamGL 槽位解锁（第三十轮侦察补充）
+
+- **At 八推论全解**：立方检验群（cube2/cube3/cube——ph 三次可加性）+ beBiadd（be 双线性证明）+ 积分性群（addInt/endInt）+ phNorm（**CM 作用规范化**——InducedCMType 的具体机制）——Kudla 矩条件的代数基础
+- **FamGL 八槽位语义全解锁**：s59 除子行有理格 / s22 判别根族 C22 / s23 flipTwoThree-Kudla / s24 StandardLattice-Kudla C3 / s10 晶体比较 Kudla / provedFourF 斜率引理族（**eD 出处**）/ provedFiveF 斜率损失族（**eL 出处**）/ hF3 标准格族定理三容许——**eD+eL+7 常数构成完全关闭**
+- **KudlaFamilyStatement 三份并行**（flipTwoThree/StandardLattice/product_first_zeroth_parts 晶体比较版）
+- 解读系列新增：docs/walkthrough/30-At八推论全解与FamGL槽位.md；数学背景笔记 30
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
