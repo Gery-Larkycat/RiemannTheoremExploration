@@ -294,6 +294,13 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - **KudlaFamilyStatement 三份并行**（flipTwoThree/StandardLattice/product_first_zeroth_parts 晶体比较版）
 - 解读系列新增：docs/walkthrough/30-At八推论全解与FamGL槽位.md；数学背景笔记 30
 
+## 斜率族定位与深嵌套观察（第三十一轮侦察补充，轻量）
+
+- 斜率族定义地：Divisibility/LocalQuadraticParts.lean；引用面含 PowFourLtCeilThresholdPrime（2 幂阈值——与 2^(e+2) 限制呼应）
+- LinkGLOBALPk 前段：closed_CH 闭性 + settingF_pk（TuSize ⇒ SettingEventually，**23 层深嵌套投影链实锤**——AI 生成可维护性观察）
+- 组织学四特征全部实录：深嵌套/双副本/编号族/命名空间桥接
+- 解读系列新增：docs/walkthrough/31-斜率族定位与深嵌套观察.md；数学背景笔记 31
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
