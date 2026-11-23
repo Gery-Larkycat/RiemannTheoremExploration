@@ -266,6 +266,12 @@ Formalism.VW.critLine（CritLine.lean:11）证明链：
 - supplyOfAdmOf 三段全覆盖收官确认
 - 解读系列新增：docs/walkthrough/26-常数7定谳与chiD体系.md；数学背景笔记 26
 
+## flipTwoThree 翻转闭包与 admF 族（第二十七轮侦察补充）
+
+- **flipTwoThree 语义定位**（CurveDVRSpecialization/FlipTwoThree.lean:38）：链接关系自反传递闭包中 2/3 素数的翻转保持——图论连通性代替逐点验证；层级链 flipTwoThree → admF7 → t7 → FamGL → LinkGLOBAL
+- **admF 编号族**：admF5/admF7/admF9（VanishingOnXAndXPlusBranching 消失分支容许族序列）+ FlagMeasures/AmpBoundsUniform/LocalNongenericBoundRecord 配套 + **SiegelMassRatio**（mass 公式判别式根出处，解读 22 的经典原型）
+- 解读系列新增：docs/walkthrough/27-翻转闭包与容许族.md；数学背景笔记 27
+
 ## 下一步侦察队列
 
 - [ ] GlobalTheory.GLq.Green 的定义与数学含义（引擎全局输入）
